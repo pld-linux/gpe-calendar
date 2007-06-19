@@ -1,5 +1,5 @@
-#
 Summary:	GPE calendar
+Summary(pl.UTF-8):	Kalendarz GPE
 Name:		gpe-calendar
 Version:	0.72
 Release:	1
@@ -24,7 +24,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define gpename %(echo %{name} | sed -e 's/gpe-//')
 
 %description
-GPE calendar, for embedded devices
+GPE calendar, for embedded devices.
+
+%description -l pl.UTF-8
+Kalendarz GPE dla urządzeń wbudowanych.
 
 %prep
 %setup -q
