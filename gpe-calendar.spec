@@ -8,16 +8,17 @@ Group:		Applications/Communications
 Source0:	http://gpe.linuxtogo.org/download/source/%{name}-%{version}.tar.bz2
 # Source0-md5:	b10a91ce3fb39b87656fc5c5510b68d6
 URL:		http://gpe.linuxtogo.org/projects/GPE-calendar.shtml
+BuildRequires:	dbus-glib-devel
 BuildRequires:	gtk+2-devel >= 2:2.10.7
-BuildRequires:	libeventdb-devel
+BuildRequires:	libeventdb-devel >= 0.19
 BuildRequires:	libgpepimc-devel
-BuildRequires:	libgpevtype-devel
-BuildRequires:	libgpewidget-devel
+BuildRequires:	libgpevtype-devel >= 0.14
+BuildRequires:	libgpewidget-devel >= 0.109
 BuildRequires:	libmimedir-devel
 BuildRequires:	libschedule-devel
 BuildRequires:	libxsettings-client-devel
 BuildRequires:	pkgconfig
-BuildRequires:  sed >= 4.0
+BuildRequires:	sqlite-devel
 Requires:	gpe-icons
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
