@@ -12,7 +12,7 @@ URL:		http://gpe.linuxtogo.org/projects/GPE-calendar.shtml
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.10.7
 BuildRequires:	intltool >= 0.23
 BuildRequires:	libeventdb-devel >= 0.90
